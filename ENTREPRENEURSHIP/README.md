@@ -1,0 +1,3 @@
+# ENTREPRENEURSHIP
+
+Cointains ENTREPRENEURSHIP assignments.
