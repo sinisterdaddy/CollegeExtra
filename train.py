@@ -51,7 +51,7 @@ print(train_df.shape[0], 'training masks')
 print(valid_df.shape[0], 'validation masks')
 
                 
-train_gen = generators.make_image_gen(train_df)
+train_gen = generators.make_image_gen(train_df)  
 train_x, train_y = next(train_gen)
 valid_x, valid_y = next(generators.make_image_gen(valid_df, VALID_IMG_COUNT))
 
